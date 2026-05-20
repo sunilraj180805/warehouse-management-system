@@ -1,31 +1,31 @@
-part_id,name,category,count,frequency,threshold,previous_rank,last_rearranged_date,location
-ENG001,Bearing,Engine,30,210,15,1,2026-03-01,R1-S1-B1
-ENG002,Piston,Engine,25,340,12,2,2026-03-01,R1-S1-B2
-FST001,Bolt,Fasteners,80,175,30,3,2026-03-01,R1-S2-B1
-FST002,Nut,Fasteners,75,360,30,4,2026-03-01,R1-S2-B2
-MNT001,Filter,Maintenance,40,155,20,5,2026-03-01,R2-S1-B1
-MNT002,Oil Filter,Maintenance,35,290,18,6,2026-03-01,R2-S1-B2
-BRK001,Brake Pad,Braking,45,385,20,7,2026-03-01,R2-S2-B1
-ELE001,Sensor,Electrical,28,140,12,8,2026-03-01,R2-S2-B2
-HYD003,Pump,Hydraulics,20,320,10,9,2026-03-01,R3-S1-B1
-TRN001,Gear,Transmission,18,110,9,10,2026-03-01,R3-S1-B2
-ENG003,Crankshaft,Engine,20,275,10,11,2026-03-01,R3-S2-B1
-FST003,Screw,Fasteners,60,400,20,12,2026-03-01,R3-S2-B2
-ELE002,Relay,Electrical,22,190,10,13,2026-03-01,R4-S1-B1
-BRK002,Brake Disc,Braking,18,245,8,14,2026-03-01,R4-S1-B2
-ENG004,Camshaft,Engine,14,85,6,15,2026-03-01,R4-S2-B1
-FST004,Washer,Fasteners,65,145,20,16,2026-03-01,R4-S2-B2
-TRN002,Shaft,Transmission,16,60,8,17,2026-03-01,R5-S1-B1
-TRN003,Clutch Plate,Transmission,13,130,7,18,2026-03-01,R5-S1-B2
-HYD002,Valve,Hydraulics,18,50,8,19,2026-03-01,R5-S2-B1
-HYD004,Cylinder,Hydraulics,15,120,7,20,2026-03-01,R5-S2-B2
-ELE003,Switch,Electrical,22,75,9,21,2026-03-01,R6-S1-B1
-MNT003,Air Filter,Maintenance,20,155,8,22,2026-03-01,R6-S1-B2
-MNT004,Fuel Filter,Maintenance,18,45,7,23,2026-03-01,R6-S2-B1
-BRK003,Brake Shoe,Braking,16,110,7,24,2026-03-01,R6-S2-B2
-TRN004,Gearbox Housing,Transmission,8,18,3,25,2026-03-01,R7-S1-B1
-HYD001,Seal,Hydraulics,12,55,4,26,2026-03-01,R7-S1-B2
-ELE004,Wire Harness,Electrical,14,12,5,27,2026-03-01,R7-S2-B1
-BRK004,Brake Caliper,Braking,9,42,3,28,2026-03-01,R7-S2-B2
-STR001,Steering Rack,Steering,6,8,2,29,2026-03-01,R8-S1-B1
-STR002,Tie Rod,Steering,10,30,3,30,2026-03-01,R8-S1-B2
+part_id,name,category,count,frequency,threshold,previous_rank,last_rearranged_date,location,movement_type
+ENG001,Bearing,Engine,30,210,15,9,2026-05-19,R3-S1-B1,Slow
+ENG002,Piston,Engine,25,340,12,4,2026-05-19,R1-S2-B2,Fast
+FST001,Bolt,Fasteners,80,175,30,11,2026-05-19,R3-S2-B1,Slow
+FST002,Nut,Fasteners,75,360,30,3,2026-05-19,R1-S2-B1,Fast
+MNT001,Filter,Maintenance,40,155,20,12,2026-05-19,R3-S2-B2,Slow
+MNT002,Oil Filter,Maintenance,35,290,18,6,2026-05-19,R2-S1-B2,Slow
+BRK001,Brake Pad,Braking,45,385,20,2,2026-05-19,R1-S1-B2,Fast
+ELE001,Sensor,Electrical,28,140,12,15,2026-05-19,R4-S2-B1,Slow
+HYD003,Pump,Hydraulics,20,320,10,5,2026-05-19,R2-S1-B1,Fast
+TRN001,Gear,Transmission,18,110,9,18,2026-05-19,R5-S1-B2,Rare
+ENG003,Crankshaft,Engine,20,275,10,7,2026-05-19,R2-S2-B1,Slow
+FST003,Screw,Fasteners,60,400,20,1,2026-05-19,R1-S1-B1,Fast
+ELE002,Relay,Electrical,22,190,10,10,2026-05-19,R3-S1-B2,Slow
+BRK002,Brake Disc,Braking,18,245,8,8,2026-05-19,R2-S2-B2,Slow
+ENG004,Camshaft,Engine,14,85,6,20,2026-05-19,R5-S2-B2,Rare
+FST004,Washer,Fasteners,65,145,20,14,2026-05-19,R4-S1-B2,Slow
+TRN002,Shaft,Transmission,16,60,8,22,2026-05-19,R6-S1-B2,Rare
+TRN003,Clutch Plate,Transmission,13,130,7,16,2026-05-19,R4-S2-B2,Rare
+HYD002,Valve,Hydraulics,18,50,8,24,2026-05-19,R6-S2-B2,Rare
+HYD004,Cylinder,Hydraulics,15,120,7,17,2026-05-19,R5-S1-B1,Rare
+ELE003,Switch,Electrical,22,75,9,21,2026-05-19,R6-S1-B1,Rare
+MNT003,Air Filter,Maintenance,20,155,8,13,2026-05-19,R4-S1-B1,Slow
+MNT004,Fuel Filter,Maintenance,18,45,7,25,2026-05-19,R7-S1-B1,Rare
+BRK003,Brake Shoe,Braking,16,110,7,19,2026-05-19,R5-S2-B1,Rare
+TRN004,Gearbox Housing,Transmission,8,18,3,28,2026-05-19,R7-S2-B2,Rare
+HYD001,Seal,Hydraulics,12,55,4,23,2026-05-19,R6-S2-B1,Rare
+ELE004,Wire Harness,Electrical,14,12,5,29,2026-05-19,R8-S1-B1,Rare
+BRK004,Brake Caliper,Braking,9,42,3,26,2026-05-19,R7-S1-B2,Rare
+STR001,Steering Rack,Steering,6,8,2,30,2026-05-19,R8-S1-B2,Rare
+STR002,Tie Rod,Steering,10,30,3,27,2026-05-19,R7-S2-B1,Rare
