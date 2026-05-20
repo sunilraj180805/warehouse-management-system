@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Real data — never commit actual company data
+# Only synthetic demo data should be in data/
+data/parts_real.csv
+data/usage_real.csv
+data/*.bak
+
+# Streamlit cache
+.streamlit/
+
+# Model artifacts
+*.pkl
+elbow_chart.png
